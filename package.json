@@ -1,0 +1,46 @@
+{
+  "name": "designsystem",
+  "version": "0.1.0",
+  "private": true,
+  "main": "build/index.js",
+  "scripts": {
+    "start": "neutrino start",
+    "build": "neutrino build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.17",
+    "@storybook/addon-info": "^3.2.17",
+    "@storybook/addon-knobs": "^3.2.17",
+    "@storybook/addon-links": "^3.2.17",
+    "@storybook/addon-notes": "^3.2.17",
+    "@storybook/react": "^3.2.17",
+    "neutrino": "^7.4.0",
+    "neutrino-preset-react-components": "^3.0.0",
+    "webpack-sources": "1.0.1"    
+  },
+  "dependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react-app": "^2.0.1",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-react": "^7.5.1",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.11.0",
+    "prettier": "^1.8.2",
+    "react": "^16.2.0",
+    "react-addons-css-transition-group": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "source-map-support": "^0.5.0"  
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  }
+}
